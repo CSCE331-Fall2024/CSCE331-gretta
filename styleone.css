@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(159, 215, 171);
+}
+h1 {
+    color: white;
+    /* text-align: center; */
+}
+p {
+    font-family: Helvetica;
+    /* font-size: 40px; */
+}
+
+
+.header-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    flex: 100%;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+
+
+
+.body-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the top navigation bar */
+.navigation {
+    /* display: flex; */
+    flex: 20%;
+    padding: 20px;
+    background-color: #4ad3f6;
+}
+
+/* Style the navigation bar links */
+.navigation a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+  /* Change color on hover */
+.navigation a:hover {
+    color: rgb(105, 42, 42);
+}
+
+.about {
+    /* display: flex; */
+    flex: 60%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
