@@ -3,27 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gretta Weich's Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #faf3ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: linear-gradient(45deg, #dab3ff, #c3f7e3);
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: transform 0.3s;
+        }
+        nav a:hover {
+            transform: scale(1.1);
+            text-shadow: 2px 2px 4px #888;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 20px;
+            min-height: 100vh;
+            border-radius: 15px;
+            margin: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        #home {
+            background: #dab3ff;
+            color: white;
+        }
+        #portfolio {
+            background: #c3f7e3;
+            color: #333;
+        }
+        #qualifications {
+            background: #e0baff;
+            color: white;
+        }
+        #service {
+            background: #b8e5d8;
+            color: #333;
+        }
+        #prompts {
+            background: #d2a8ff;
+            color: white;
+        }
+
+        /* Section Headers */
+        section h2, section h1 {
+            font-family: 'Georgia', serif;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #dab3ff;
+            color: white;
+            border-top: 5px solid #c3f7e3;
+        }
+
+        /* Add professional styles to list items */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #c3f7e3;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            color: #333;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            transition: transform 0.3s;
+        }
+        ul li:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
 </head>
 <body>
-    <aside>
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <a href="index.html">Home</a>
-          </tr>
-          <tr>
-            <a href="portfolio.html">Technical Portfolio</a>
-          </tr>
-          <tr>
-            <a href="qualifications.html">Qualifications</a>
-          </tr>
-          <tr>
-            <a href="service.html">Service</a>
-          </tr>
-          <tr>
-            <a href="aigen.html">AI-Generated</a>
-          </tr>
-        </table>
-      </aside>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#portfolio">Technical Portfolio</a>
+        <a href="#qualifications">Qualifications</a>
+        <a href="#service">Service</a>
+        <a href="#prompts">Prompts</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Gretta Weich's Portfolio</h1>
+        <p>Introduction to Gretta and a brief overview of what she does.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Technical Portfolio</h2>
+        <p>Details of Gretta's technical projects, skills, and achievements.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="qualifications">
+        <h2>Qualifications</h2>
+        <p>List of degrees, certifications, and other qualifications.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="service">
+        <h2>Service</h2>
+        <p>Information about Gretta's services, how to contact her, and any testimonials.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="prompts">
+        <h2>Prompts</h2>
+        <p>Below are the prompts I've given:</p>
+        <ul>
+            <li>Create a website using HTML for Gretta Weich, with four sections: Home, Technical Portfolio, Qualifications, and Service.</li>
+            <li>Add an area to this website where I can input the prompts I've given you.</li>
+            <li>Enhance the design with a purple and green color palette and a fun style.</li>
+            <li>Adjust the color palette to be more pastel.</li>
+            <li>Update the design with professional fonts and refine the prompts section.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gretta Weich. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
