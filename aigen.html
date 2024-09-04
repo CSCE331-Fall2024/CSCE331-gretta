@@ -3,155 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gretta Weich's Portfolio</title>
+    <title>Gretta Weich - Creative Journey</title>
     <style>
-        /* General Styles */
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #faf3ff;
+            font-family: 'Verdana', sans-serif;
+            background: linear-gradient(135deg, #fdf2f8, #f0f4f8);
+            color: #333;
             margin: 0;
-            padding: 0;
-            color: #333;
+            padding: 20px;
         }
-
-        /* Navigation Bar */
-        nav {
-            background: linear-gradient(45deg, #dab3ff, #c3f7e3);
-            padding: 15px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+        header {
             text-align: center;
+            padding: 50px 0;
         }
-        nav a {
-            color: #fff;
-            margin: 0 20px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            transition: transform 0.3s;
+        header h1 {
+            font-size: 2.8em;
+            color: #3b3f58;
+            text-shadow: 1px 1px #d1d9e6;
         }
-        nav a:hover {
-            transform: scale(1.1);
-            text-shadow: 2px 2px 4px #888;
+        header p {
+            font-size: 1.3em;
+            color: #555;
         }
-
-        /* Sections */
-        section {
-            padding: 60px 20px;
-            min-height: 100vh;
-            border-radius: 15px;
-            margin: 20px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
         }
-        #home {
-            background: #dab3ff;
-            color: white;
+        h2 {
+            color: #3b3f58;
+            border-bottom: 2px solid #d1d9e6;
+            padding-bottom: 5px;
         }
-        #portfolio {
-            background: #c3f7e3;
-            color: #333;
+        .section {
+            margin-bottom: 35px;
         }
-        #qualifications {
-            background: #e0baff;
-            color: white;
+        .section p {
+            line-height: 1.6;
         }
-        #service {
-            background: #b8e5d8;
-            color: #333;
-        }
-        #prompts {
-            background: #d2a8ff;
-            color: white;
-        }
-
-        /* Section Headers */
-        section h2, section h1 {
-            font-family: 'Georgia', serif;
-            font-size: 36px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        /* Footer */
         footer {
             text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 18px;
+            background-color: #3b3f58;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #57617a;
+        }
+        .prompt-section {
+            background-color: #e5eaf1;
             padding: 20px;
-            background-color: #dab3ff;
-            color: white;
-            border-top: 5px solid #c3f7e3;
-        }
-
-        /* Add professional styles to list items */
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            background: #c3f7e3;
-            margin: 10px 0;
-            padding: 15px;
             border-radius: 10px;
-            color: #333;
-            font-size: 18px;
-            font-family: 'Roboto', sans-serif;
-            transition: transform 0.3s;
+            margin-top: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        ul li:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        .prompt-section h2 {
+            margin-bottom: 15px;
+            color: #3b3f58;
         }
-
+        .prompt-item {
+            margin-bottom: 15px;
+        }
+        .prompt-item p {
+            font-style: italic;
+            background: #d1d9e6;
+            padding: 12px;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Gretta Weich</h1>
+        <p>Junior Computer Science Student & Aspiring Designer</p>
+    </header>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#portfolio">Technical Portfolio</a>
-        <a href="#qualifications">Qualifications</a>
-        <a href="#service">Service</a>
-        <a href="#prompts">Prompts</a>
-    </nav>
+    <div class="content">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Enthusiastic Computer Science student with a passion for software development and a budding minor in Graphic Design. Proficient in Python, Adobe Illustrator, and Photoshop, with a love for creative problem-solving and new technologies. Ready to bring energy and innovation to a software engineering internship.</p>
+        </div>
 
-    <section id="home">
-        <h1>Welcome to Gretta Weich's Portfolio</h1>
-        <p>Introduction to Gretta and a brief overview of what she does.</p>
-    </section>
+        <div class="section">
+            <h2>Top Skills</h2>
+            <ul>
+                <li>Python (Programming Language)</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>C++</li>
+            </ul>
+        </div>
 
-    <section id="portfolio">
-        <h2>Technical Portfolio</h2>
-        <p>Details of Gretta's technical projects, skills, and achievements.</p>
-        <!-- Add more content here -->
-    </section>
+        <div class="section">
+            <h2>Experience</h2>
+            <h3>iD Tech Camps - Course Instructor</h3>
+            <p>May 2024 - Aug 2024, Houston, Texas, United States</p>
+            <p>Taught Java coding skills to beginners, focusing on Minecraft modding. Managed groups of children and helped them create a final project.</p>
 
-    <section id="qualifications">
-        <h2>Qualifications</h2>
-        <p>List of degrees, certifications, and other qualifications.</p>
-        <!-- Add more content here -->
-    </section>
+            <h3>The Pines Catholic Camp - Summer Camp Counselor</h3>
+            <p>May 2023 - Aug 2023, Big Sandy, Texas, United States</p>
+            <p>Supported and guided a cabin of twelve girls, fostering their spiritual and personal growth throughout an eight-week summer camp.</p>
 
-    <section id="service">
-        <h2>Service</h2>
-        <p>Information about Gretta's services, how to contact her, and any testimonials.</p>
-        <!-- Add more content here -->
-    </section>
+            <h3>The Pines Catholic Camp - SWAT (Servant with a Task)</h3>
+            <p>Jul 2022 - Aug 2022, Big Sandy, Texas, United States</p>
+            <p>Maintained the dining hall's cleanliness and assisted in serving meals to over three hundred campers and staff. Contributed to camp activities.</p>
+        </div>
 
-    <section id="prompts">
-        <h2>Prompts</h2>
-        <p>Below are the prompts I've given:</p>
-        <ul>
-            <li>Create a website using HTML for Gretta Weich, with four sections: Home, Technical Portfolio, Qualifications, and Service.</li>
-            <li>Add an area to this website where I can input the prompts I've given you.</li>
-            <li>Enhance the design with a purple and green color palette and a fun style.</li>
-            <li>Adjust the color palette to be more pastel.</li>
-            <li>Update the design with professional fonts and refine the prompts section.</li>
-        </ul>
-    </section>
+        <footer>
+            <a class="back-button" href="index.html">Back to Home</a>
+            <p>Created with ♥ by Gretta Weich</p>
+        </footer>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Gretta Weich. All rights reserved.</p>
-    </footer>
+    <div class="prompt-section">
+        <h2>Prompt Section</h2>
 
+        <div class="prompt-item">
+            <p>1. howdy! make me a website. here is information about myself from my linkedin:
+
+                Gretta Weich 
+                Junior Computer Science Student at Texas A&M University
+                Minoring in Graphic Design
+                Activities and societies: SMYRT (St. Mary's Youth Retreat Team), Connect Retreat
+                Grade: 3.8
+                Enthusiastic Computer Science student with a passion for software development and beginning a minor in Graphic Design. Budding proficiency in Python and ongoing learning in C++. Skilled in Adobe Creative Suite, mostly Photoshop and Illustrator. Eager to apply technical skills, new technologies, and problem-solving abilities to contribute to a software engineering internship.
+                                
+                Top skills
+                Python (Programming Language) • Adobe Illustrator • Adobe Photoshop • C++
+                
+                Experience:
+                iD Tech Camps
+                Course Instructor
+                May 2024 - Aug 2024
+                Houston, Texas, United States
+                Taught Java coding skills to beginners, mostly in the form of Minecraft modding, resulting in a final project. Managed behavior and oversaw groups of children ranging from second graders to incoming seniors.
+                                
+                The Pines Catholic Camp
+                Summer Camp Counselor
+                May 2023 - Aug 2023
+                Big Sandy, Texas, United States
+                Supervised and provided support to a cabin of up to twelve girls, along with a co-counselor, for eight weeks during the summer. Provided spiritual guidance through discussions based on speaker talks.
+                
+                The Pines Catholic Camp
+                SWAT (Servant with a Task)
+                Jul 2022 - Aug 2022
+                Big Sandy, Texas, United States
+                Managed dining hall cleanliness, including dishwashing and table maintenance. Served meals to a diverse group of over three hundred campers and staff. Contributed to camp activities and assisted where necessary.
+                
+                please make the website with only one html file, a pastel theme, and a back button to my homepage: "index.html"
+                
+                also, add a section at the bottom with the prompt</p>
+        </div>
+
+        <div class="prompt-item">
+            <p>2. change the prompt section a bit with space for a couple additional prompts i will give you. make the website a bit more fun and creative!</p>
+        </div>
+
+        <div class="prompt-item">
+            <p>3. keep it fun, but make it more professional</p>
+        </div>
+
+        <div class="prompt-item">
+            <p>4. add the pastel theme back</p>
+        </div>
+    </div>
 </body>
 </html>
