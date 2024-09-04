@@ -8,16 +8,42 @@ h1 {
 }
 h3 {
     font-family: "DynaPuff", system-ui;
-    font-size: 25px;
 }
 p {
     font-family: Helvetica;
 }
 
+a{
+    box-sizing: border-box;
+    padding: 70;
+}
+
+.home_button{
+    box-sizing: border-box;
+    padding-right: 40;
+    padding: 0;
+}
+.port_button{
+    box-sizing: border-box;
+    padding: 60;
+}
+.qual_button{
+    box-sizing: border-box;
+    padding: 60;
+}
+.service_button{
+    box-sizing: border-box;
+    padding: 60;
+}
+.ai_button{
+    box-sizing: border-box;
+    padding: 60;
+}
+
 
 .header-flex {
     display: flex;
-    margin: 0%;
+    margin: 0px;
 }
 .header {
 
@@ -34,6 +60,7 @@ p {
     background-repeat: no-repeat;
     background-clip: padding-box;
 }
+
 
 
 .body-flex {
@@ -82,23 +109,48 @@ p {
     order: 2;
     background-image: url(aboutpng.png);
 
-    background-size: 100%;
+    background-size:contain;
     background-repeat: no-repeat;
     background-clip: padding-box;
 
 
-    flex: 10%;
-    padding-right: 50px;
-    padding-left: 50px;
+    flex: 50%;
+    padding-right: 60px;
+    padding-left: 0px;
     
+
+}
+
+.aboutme_title{
+    box-sizing: border-box;
+
+    font-size: 30px;
+
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 310px;
+    padding-bottom: 0px;
+
+    text-align: center;
+}
+
+.aboutme_text{
+    box-sizing: border-box;
+
+    
+    padding-top: 0px;
+    padding-left: 220px;
+
+    /* text-align: justify; */
 
 }
 
 .imageone {
     order: 1;
-    flex: 30%;
-    padding-right: 00px;
-    padding-left: 10px;
+    flex: 50%;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
 }
 
 .bodytwo-flex {
