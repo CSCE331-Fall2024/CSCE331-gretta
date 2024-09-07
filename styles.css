@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body {
+    background-color: #cec9db;
+}
+h1 {
+    color: white;
+}
+h3 {
+    font-family: "DynaPuff", system-ui;
+}
+p {
+    font-family: Helvetica;
+}
+
+a{
+    box-sizing: border-box;
+}
+
+
+.header-flex {
+    display: flex;
+    margin: 0px;
+}
+.header {
+
+    flex: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    
+    font-family: "DynaPuff", system-ui;
+    font-size: 35px;
+
+    background-image: url(title3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+
+
+
+.body-flex {
+    display: flex;
+}
+
+.navigation {
+
+    order: 2;
+
+    background-image: url(sidebar.png);
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+
+    flex: 5%;
+    padding: 5px;
+    
+}
+
+.navigation a {
+
+    font-size: 18px;
+
+    font-family: Helvetica;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: right;
+    
+}
+
+.navigation a:hover {
+    color: #859f84;
+}
+
+
+.home_button{
+    box-sizing: border-box;
+    padding-top: 65;
+    padding-right: 30;
+    text-align: right;
+}
+.port_button{
+    box-sizing: border-box;
+    padding-top: 65;
+    padding-right: 30;
+    text-align: right;
+}
+.qual_button{
+    box-sizing: border-box;
+    padding-top: 65;
+    padding-right: 30;
+    text-align: right;
+}
+.service_button{
+    box-sizing: border-box;
+    padding-top: 65;
+    padding-right: 30;
+    text-align: right;
+}
+.ai_button{
+    box-sizing: border-box;
+    padding-top: 65;
+    padding-right: 0;
+    padding-bottom: 120;
+    text-align: right;
+}
+
+
+.about {
+    order: 1;
+    display: flex;
+    flex: 60%;
+    padding: 20px;
+}
+
+.aboutme {
+    display: flex;
+    order: 2;
+    background-image: url(aboutpng.png);
+
+    /* align-self: center; */
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-position-y: 30px;
+
+
+    flex: 50%;
+    padding-right: 60px;
+    padding-left: 0px;
+    
+    
+
+}
+
+.aboutme_title{
+    box-sizing: border-box;
+
+    font-size: 30px;
+
+    padding-left: 70px;
+    padding-top: 50px;
+    /* padding-right: 310px; */
+    padding-bottom: 0px;
+
+    text-align: center;
+}
+
+.aboutme_text{
+    box-sizing: border-box;
+
+    
+    padding-top: 165px;
+    padding-left: 25px;
+
+    /* text-align: justify; */
+
+}
+
+.imageone {
+    order: 1;
+    flex: 50%;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 15px;
+}
+
+.bodytwo-flex {
+    order: 1;
+    display: flex;
+    flex: 60%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.techskill{
+    background-image: url(bgone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 30px;
+}
+
