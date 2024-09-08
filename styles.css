@@ -197,7 +197,7 @@ img {
 
 .hackathon{
     order: 1;
-    flex: 50%;
+    flex: 35%;
     background-image: url(port_blob1.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -205,29 +205,47 @@ img {
 
 .hackathon h3{
     padding-top: 30px;
-    padding-left: 120px;
-    padding-right: 180px;
+    padding-left: 110px;
+    padding-right: 150px;
 }
 
 .hackathon p{
     padding-top: 15px;
-    padding-left: 60px;
-    padding-right: 190px;
+    padding-left: 80px;
+    padding-right: 105px;
     text-align: right;
 }
 .hackathon a{
     padding-right: 20;
-    padding-left: 20;
+    padding-left: 22;
 }
 
-.wordle{
+.wordleandlink{
     order: 2;
     flex: 50%;
+    background-image: url(port_blob2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wordle h3{
+    padding-left: 40;
+    padding-top: 25;
+}
+
+.wordle p{
+    padding-left: 90;
+    padding-right: 120;
+}
+
+.wordlelink{
+    padding-left: 250;
 }
 
 .link{
     order: 3;
-    padding: 0px;
+    padding-top: 14px;
+    padding-left: 50;
 }
 
 .link a{
@@ -239,4 +257,9 @@ img {
 
 .link a:hover {
     color: #99ad98;
+}
+
+.gitlink{
+    padding-left: 20;
+    padding-top: 100;
 }
