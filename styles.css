@@ -8,6 +8,7 @@ h1 {
 }
 h3 {
     font-family: "DynaPuff", system-ui;
+    font-size: 25px;
 }
 p {
     font-family: Helvetica;
@@ -15,8 +16,15 @@ p {
 
 a{
     box-sizing: border-box;
+    font-family: "DynaPuff", system-ui;
+    font-size: 15px;
+    color: #859f84;
+    text-decoration: none;
 }
 
+a:hover {
+    color: #99ad98;
+}
 
 .header-flex {
     display: flex;
@@ -174,11 +182,11 @@ a{
     display: flex;
     flex: 60%;
     padding: 20px;
-    flex-direction: column;
+    flex-direction:row;
 }
 
 .techskill{
-    background-image: url(bgone.png);
+    background-image: url(port_blob1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -187,3 +195,48 @@ img {
     border-radius: 30px;
 }
 
+.hackathon{
+    order: 1;
+    flex: 50%;
+    background-image: url(port_blob1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hackathon h3{
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 180px;
+}
+
+.hackathon p{
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 190px;
+    text-align: right;
+}
+.hackathon a{
+    padding-right: 20;
+    padding-left: 20;
+}
+
+.wordle{
+    order: 2;
+    flex: 50%;
+}
+
+.link{
+    order: 3;
+    padding: 0px;
+}
+
+.link a{
+    font-family: "DynaPuff", system-ui;
+    font-size: 25px;
+    color: #859f84;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #99ad98;
+}
