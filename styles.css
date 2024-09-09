@@ -303,3 +303,41 @@ img {
     padding-right: 10%;
     padding-bottom: 28%;
 }
+
+.stmarys{
+    flex: 50%;
+}
+
+.smyrt{
+    background-image: url(serv_blob1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 12%;
+    padding-top: 12%;
+    padding-right: 10%;
+    padding-bottom: 18%;
+}
+
+.smyrt a{
+    padding-left: 60%;
+}
+
+.connect{
+    background-image: url(serv_blob2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-top: 7%;
+    padding-right: 8%;
+    padding-bottom: 10%;
+}
+
+.thepines{
+    flex: 25%;
+    background-image: url(serv_blob3.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-right: 6%;
+}
