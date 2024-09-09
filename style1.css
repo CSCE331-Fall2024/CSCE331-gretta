@@ -53,6 +53,8 @@ a:hover {
 
 .navigation {
 
+    background-color: #cec9db;
+
     order: 2;
 
     background-image: url(sidebar.png);
@@ -63,6 +65,7 @@ a:hover {
 
     flex: 5%;
     padding: 1%;
+    padding-bottom: 7%;
     
 }
 
